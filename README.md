@@ -23,3 +23,7 @@ You should put spaces between binary signs, overwise it will be counted as unary
 Ex.: `./calc.exe "(-1234 + 3 * 2) | ((6 - 2) << 4) ** 2 % 17 + 5 & ((3 ** (2 + 1)) / 4)"`
 
 Output: -1228
+
+
+> [!NOTE]
+> Make sure that an expression contains only integer numbers (floating point numbers are not supported, all divisions rounded down)

@@ -1,2 +1,20 @@
-# infix-notation
-calculator that reads an expression in infix notation
+# Infix notation calculator
+
+This program on C can count difficult expressions like `-1234 + 3 * 2 + (6 - 2) ** 2` 
+To count an expression firstly I use shunting yard algorithm to turn infix notation into reverse polish notation (postfix notation).
+
+## Supported operations
+Binary:
+`a * b`, `a / b`, `a % b`, `a + b`, `a - b`,
+`a << b`, `a >> b`, `a & b`, `a | b`, `a ^ b`, `a * b`, 
+`a ** b` - exponentiation, `(a + b) * c` - precedence management
+
+Unary: `-a`, `+a`, `~a`
+
+about signs: https://en.cppreference.com/w/cpp/language/operator_precedence.html
+
+
+## Usage
+Launch calc.exe by passing an expression in " " there as a first parameter
+You should put spaces between binary signs, overwise it will be counted as unary ones
+Ex.: `a-b` -> `a`, `-b`    `a - b` -> ✓

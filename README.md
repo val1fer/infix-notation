@@ -19,6 +19,7 @@ about signs: https://en.cppreference.com/w/cpp/language/operator_precedence.html
 ## Usage
 Build the program
 Ex.: `gcc -o calc main.c src/parse.c src/extra_functions.c`
+
 or `clang -o calc main.c src/parse.c src/extra_functions.c`
 
 Then launch calc.exe with passing an expression in " " there as a first parameter

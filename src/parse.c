@@ -1,7 +1,7 @@
-#include "extra_functions.h"
-
 #include <stdio.h>
 #include <stdbool.h>
+
+#include "../include/extra_functions.h"
 
 int parsePostIndex(char** output, NumNode** numberStack) {
 	/*
